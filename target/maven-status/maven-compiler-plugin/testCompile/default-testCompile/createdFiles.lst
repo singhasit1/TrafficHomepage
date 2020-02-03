@@ -1,0 +1,10 @@
+com\project\AdminViewTestCase.class
+com\project\Runner.class
+com\project\CRIPendingTestCase.class
+com\project\ContentiousProgrammeTestCase.class
+com\project\TeamViewTestCase.class
+com\project\MyViewTestCase.class
+com\project\WorklistWidgetTestCase.class
+com\project\AccountSetup.class
+com\project\RunnersTestng.class
+com\project\SponorshipTestCase.class
