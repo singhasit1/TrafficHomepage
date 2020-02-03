@@ -149,7 +149,7 @@
                             <include>com.project.Runner</include>
                         </includes>
                         <testFailureIgnore>true</testFailureIgnore>
-                      <skipTests>false</skipTests>
+                      <skipTests>true</skipTests>
                     </configuration>
                 </plugin>
                 <plugin>
