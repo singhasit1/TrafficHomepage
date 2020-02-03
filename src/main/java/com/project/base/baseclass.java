@@ -108,6 +108,7 @@ public class baseclass {
             if (browserName.equalsIgnoreCase("chrome")) {
                 System.out.println(" Executing on Chrome");
                 ChromeOptions option = new ChromeOptions();
+                option.addArguments("disable-infobars");
                 DesiredCapabilities capability = DesiredCapabilities.chrome();
                 capability.setBrowserName("chrome");
                 capability.setPlatform(Platform.WINDOWS);
