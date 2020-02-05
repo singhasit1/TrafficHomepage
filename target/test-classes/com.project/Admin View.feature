@@ -17,15 +17,16 @@ Feature: Verify Admin View Tab Functionality Of Traffic Homepage
 
 
   @Sanity
-  Scenario: Verify  Channel Responsibilities Widget contain minimum Five Records
-    And   Set Date as "01 May 2019" and "10 May 2019" in Channel Responsibilities
+  Scenario: Verify  Channel Asingh  Pass#12345
+  Responsibilities Widget contain minimum Five Records
+    And   Set Date as "01 JAN 2020" and "31 JAN 2020" in Channel Responsibilities
     And   Click On View Button
     Then  Channel Responsibilities Widget Contain Minimum <5> Records
 
 
   @Sanity
   Scenario: Verify Auto_Generate Functionalities of Channel Responsibilites screen
-    And   Set Date as "01 Mar 2019" and "15 Mar 2019" in Channel Responsibilities
+    And   Set Date as "01 JAN 2020" and "15 JAN 2020" in Channel Responsibilities
     And   Click On View All/Update Button
     And   Click On AutoGenerate Button
     Then  Verify The System Warning Message_And_Confirm
