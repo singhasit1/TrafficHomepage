@@ -17,7 +17,8 @@ Feature: Verify Admin View Tab Functionality Of Traffic Homepage
 
 
   @Sanity
-  Scenario: Verify  Channel Responsibilities Widget contain minimum Five Records
+  Scenario: Verify  Channel Asingh  Pass#12345
+  Responsibilities Widget contain minimum Five Records
     And   Set Date as "01 JAN 2020" and "31 JAN 2020" in Channel Responsibilities
     And   Click On View Button
     Then  Channel Responsibilities Widget Contain Minimum <5> Records

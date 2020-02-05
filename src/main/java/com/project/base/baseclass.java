@@ -113,7 +113,7 @@ public class baseclass {
                 capability.setBrowserName("chrome");
                 capability.setPlatform(Platform.WINDOWS);
                 //option.merge(capability);
-                String HUBURL = "http://192.168.10.47:4444/wd/hub";
+                String HUBURL = "http://192.168.10.60:4444/wd/hub";
                 driver = new RemoteWebDriver(new URL(HUBURL),capability);
 
             } else if (browserName.equalsIgnoreCase("firefox")) {
