@@ -47,7 +47,7 @@ Feature: Verify Admin View Tab Functionality Of Traffic Homepage
 
   @Sanity
   Scenario: Verify Update Username in channel Responsibilites  Screen
-    And   Set Date as "01 Mar 2019" and "15 Mar 2019" in Channel Responsibilities
+    And   Set Date as "01 JAN 2020" and "31 JAN 2020" in Channel Responsibilities
     And   Click On View All/Update Button
     Then  ViewAll channel Responsibilites Screen Open
     And   Select an user as "Lisa Aldred" and Save
